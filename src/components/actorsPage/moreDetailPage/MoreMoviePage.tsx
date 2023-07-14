@@ -27,7 +27,7 @@ const MoreMoviePage = () => {
 
     return (
         <div className="container">
-            <h2>Известность за</h2>
+            <h2>Фильмы</h2>
             <div className="actors">
             {
                 deg.map(el => (
@@ -41,6 +41,7 @@ const MoreMoviePage = () => {
                     </NavLink>
                 // <h5>{el.original_title}</h5>
                 // <h4>{el.release_date}</h4>
+
                 ))
             }
             </div>

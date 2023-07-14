@@ -53,7 +53,7 @@ const MovieBioPage = () => {
                           display: viewMore ? 'none' : 'block'
                       }}>{biography.slice(0,200)}</p>
                   ) : ''}
-                  <p style={{cursor: "pointer",  display: viewMore ? 'none' : 'block', color: 'blue'}} onClick={() => setViewMore(!viewMore)}>Читать далее...</p>
+                  <p style={{cursor: "pointer",  display: viewMore ? 'none' : 'block', color: 'blue'}} onClick={() => setViewMore(!viewMore)}>ещё...</p>
 
                       <p style={{
                           display: viewMore ? 'block' : 'none'
@@ -62,7 +62,7 @@ const MovieBioPage = () => {
                       <p onClick={() => setViewMore(!viewMore)} style={{
                           display: viewMore ? "block": 'none',
                           cursor: 'pointer', color: 'blue'
-                      }}>читать меньше.</p>
+                      }}>закрыть</p>
                   </h4>
 
               </div>

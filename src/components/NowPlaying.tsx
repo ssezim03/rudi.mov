@@ -16,7 +16,7 @@ const NowPlaying = () => {
             <div className="popular">
                 {
                     movie.map(el => (
-                        <div key={el.id}>
+                        <div key={el.id} className="popular--card">
                             <div className="popular--main"><NavLink to={`/detail/${el.id}`}>
                                 <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face${el.poster_path}`}
                                      alt=""/></NavLink>

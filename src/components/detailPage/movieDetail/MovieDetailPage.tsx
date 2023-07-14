@@ -51,6 +51,7 @@ const MovieDetailPage = () => {
                                 <div className="details--titles">
                                     {/*<button className="details--titles__vote">{Math.floor (vote_average * 10)}%</button>*/}
                                     <p>Рейтинг</p>
+
                                 </div>
                                 <p>{overview}</p>
                             </div>
